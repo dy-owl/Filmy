@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C05F89A27C1321D008964C2 /* AppNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C05F89927C1321D008964C2 /* AppNavigator.swift */; };
+		0C05F89E27C13525008964C2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C05F89D27C13525008964C2 /* HomeView.swift */; };
+		0C05F8AB27C13AB5008964C2 /* HomeNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C05F8AA27C13AB5008964C2 /* HomeNavigator.swift */; };
+		0C05F8B227C14D71008964C2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C05F8B127C14D71008964C2 /* SettingsView.swift */; };
+		0C05F8B927C15134008964C2 /* SettingsNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C05F8B827C15134008964C2 /* SettingsNavigator.swift */; };
+		0C05F8BD27C154FF008964C2 /* TabBarNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C05F8BC27C154FF008964C2 /* TabBarNavigator.swift */; };
+		0C05F8C027C15542008964C2 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C05F8BF27C15542008964C2 /* TabBarView.swift */; };
+		0C05F8C727C17E0D008964C2 /* ScreenNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C05F8C627C17E0D008964C2 /* ScreenNavigator.swift */; };
 		0C1BFC8927AEA60000D58E23 /* FilmyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1BFC8827AEA60000D58E23 /* FilmyApp.swift */; };
-		0C1BFC8B27AEA60000D58E23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1BFC8A27AEA60000D58E23 /* ContentView.swift */; };
 		0C1BFC8D27AEA60200D58E23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C1BFC8C27AEA60200D58E23 /* Assets.xcassets */; };
 		0C1BFC9027AEA60200D58E23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C1BFC8F27AEA60200D58E23 /* Preview Assets.xcassets */; };
 		0C1BFC9A27AEA60300D58E23 /* FilmyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1BFC9927AEA60300D58E23 /* FilmyTests.swift */; };
 		0C1BFCA427AEA60300D58E23 /* FilmyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1BFCA327AEA60300D58E23 /* FilmyUITests.swift */; };
 		0C1BFCA627AEA60300D58E23 /* FilmyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1BFCA527AEA60300D58E23 /* FilmyUITestsLaunchTests.swift */; };
+		0CB5458127C19BDD0041C0A0 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB5458027C19BDD0041C0A0 /* AppView.swift */; };
+		0CB5458427C289730041C0A0 /* HomeChildView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB5458327C289730041C0A0 /* HomeChildView1.swift */; };
+		0CB5458627C289850041C0A0 /* HomeChildView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB5458527C289850041C0A0 /* HomeChildView2.swift */; };
+		0CB5458927C2935C0041C0A0 /* SettingsChildView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB5458827C2935C0041C0A0 /* SettingsChildView1.swift */; };
+		0CB5458B27C2936D0041C0A0 /* SettingsChildView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB5458A27C2936D0041C0A0 /* SettingsChildView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C05F89927C1321D008964C2 /* AppNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigator.swift; sourceTree = "<group>"; };
+		0C05F89D27C13525008964C2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0C05F8AA27C13AB5008964C2 /* HomeNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigator.swift; sourceTree = "<group>"; };
+		0C05F8B127C14D71008964C2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		0C05F8B827C15134008964C2 /* SettingsNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsNavigator.swift; sourceTree = "<group>"; };
+		0C05F8BC27C154FF008964C2 /* TabBarNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarNavigator.swift; sourceTree = "<group>"; };
+		0C05F8BF27C15542008964C2 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		0C05F8C627C17E0D008964C2 /* ScreenNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenNavigator.swift; sourceTree = "<group>"; };
 		0C1BFC8527AEA60000D58E23 /* Filmy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Filmy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C1BFC8827AEA60000D58E23 /* FilmyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmyApp.swift; sourceTree = "<group>"; };
-		0C1BFC8A27AEA60000D58E23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0C1BFC8C27AEA60200D58E23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C1BFC8F27AEA60200D58E23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0C1BFC9527AEA60300D58E23 /* FilmyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilmyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +63,11 @@
 		0C1BFC9F27AEA60300D58E23 /* FilmyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilmyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C1BFCA327AEA60300D58E23 /* FilmyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmyUITests.swift; sourceTree = "<group>"; };
 		0C1BFCA527AEA60300D58E23 /* FilmyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0CB5458027C19BDD0041C0A0 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		0CB5458327C289730041C0A0 /* HomeChildView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeChildView1.swift; sourceTree = "<group>"; };
+		0CB5458527C289850041C0A0 /* HomeChildView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeChildView2.swift; sourceTree = "<group>"; };
+		0CB5458827C2935C0041C0A0 /* SettingsChildView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsChildView1.swift; sourceTree = "<group>"; };
+		0CB5458A27C2936D0041C0A0 /* SettingsChildView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsChildView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +95,101 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C05F8A127C135C2008964C2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0C05F8A227C135DA008964C2 /* Main */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0C05F8A227C135DA008964C2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0C05F8BA27C154EB008964C2 /* TabBar */,
+				0C05F8A327C135DF008964C2 /* Home */,
+				0C05F8A427C135EA008964C2 /* Settings */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0C05F8A327C135DF008964C2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0C05F8A727C13608008964C2 /* Navigator */,
+				0C05F8A527C135FE008964C2 /* View */,
+				0CB5458227C2894A0041C0A0 /* Child */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0C05F8A427C135EA008964C2 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				0C05F8B727C15122008964C2 /* Navigator */,
+				0C05F8B027C14D60008964C2 /* View */,
+				0CB5458727C2932A0041C0A0 /* Child */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		0C05F8A527C135FE008964C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0C05F89D27C13525008964C2 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0C05F8A727C13608008964C2 /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				0C05F8AA27C13AB5008964C2 /* HomeNavigator.swift */,
+			);
+			path = Navigator;
+			sourceTree = "<group>";
+		};
+		0C05F8B027C14D60008964C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0C05F8B127C14D71008964C2 /* SettingsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0C05F8B727C15122008964C2 /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				0C05F8B827C15134008964C2 /* SettingsNavigator.swift */,
+			);
+			path = Navigator;
+			sourceTree = "<group>";
+		};
+		0C05F8BA27C154EB008964C2 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0C05F8BB27C154F0008964C2 /* Navigator */,
+				0C05F8BE27C15527008964C2 /* View */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		0C05F8BB27C154F0008964C2 /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				0C05F8BC27C154FF008964C2 /* TabBarNavigator.swift */,
+			);
+			path = Navigator;
+			sourceTree = "<group>";
+		};
+		0C05F8BE27C15527008964C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0C05F8BF27C15542008964C2 /* TabBarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		0C1BFC7C27AEA60000D58E23 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +213,11 @@
 		0C1BFC8727AEA60000D58E23 /* Filmy */ = {
 			isa = PBXGroup;
 			children = (
+				0C05F8A127C135C2008964C2 /* ViewModel */,
+				0C05F8C627C17E0D008964C2 /* ScreenNavigator.swift */,
+				0C05F89927C1321D008964C2 /* AppNavigator.swift */,
+				0CB5458027C19BDD0041C0A0 /* AppView.swift */,
 				0C1BFC8827AEA60000D58E23 /* FilmyApp.swift */,
-				0C1BFC8A27AEA60000D58E23 /* ContentView.swift */,
 				0C1BFC8C27AEA60200D58E23 /* Assets.xcassets */,
 				0C1BFC8E27AEA60200D58E23 /* Preview Content */,
 			);
@@ -125,6 +247,24 @@
 				0C1BFCA527AEA60300D58E23 /* FilmyUITestsLaunchTests.swift */,
 			);
 			path = FilmyUITests;
+			sourceTree = "<group>";
+		};
+		0CB5458227C2894A0041C0A0 /* Child */ = {
+			isa = PBXGroup;
+			children = (
+				0CB5458327C289730041C0A0 /* HomeChildView1.swift */,
+				0CB5458527C289850041C0A0 /* HomeChildView2.swift */,
+			);
+			path = Child;
+			sourceTree = "<group>";
+		};
+		0CB5458727C2932A0041C0A0 /* Child */ = {
+			isa = PBXGroup;
+			children = (
+				0CB5458827C2935C0041C0A0 /* SettingsChildView1.swift */,
+				0CB5458A27C2936D0041C0A0 /* SettingsChildView2.swift */,
+			);
+			path = Child;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +397,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C1BFC8B27AEA60000D58E23 /* ContentView.swift in Sources */,
 				0C1BFC8927AEA60000D58E23 /* FilmyApp.swift in Sources */,
+				0C05F8B927C15134008964C2 /* SettingsNavigator.swift in Sources */,
+				0C05F8C027C15542008964C2 /* TabBarView.swift in Sources */,
+				0CB5458127C19BDD0041C0A0 /* AppView.swift in Sources */,
+				0C05F8C727C17E0D008964C2 /* ScreenNavigator.swift in Sources */,
+				0CB5458627C289850041C0A0 /* HomeChildView2.swift in Sources */,
+				0CB5458927C2935C0041C0A0 /* SettingsChildView1.swift in Sources */,
+				0C05F89A27C1321D008964C2 /* AppNavigator.swift in Sources */,
+				0C05F8B227C14D71008964C2 /* SettingsView.swift in Sources */,
+				0CB5458427C289730041C0A0 /* HomeChildView1.swift in Sources */,
+				0C05F8AB27C13AB5008964C2 /* HomeNavigator.swift in Sources */,
+				0CB5458B27C2936D0041C0A0 /* SettingsChildView2.swift in Sources */,
+				0C05F89E27C13525008964C2 /* HomeView.swift in Sources */,
+				0C05F8BD27C154FF008964C2 /* TabBarNavigator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

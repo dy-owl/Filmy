@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct FilmyApp: App {
+    
+    private let appNavigator = AppNavigator()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppView(navigator: appNavigator)
         }
     }
 }
